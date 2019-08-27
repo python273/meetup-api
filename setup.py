@@ -4,7 +4,8 @@ from setuptools import setup, find_packages
 from meetup import __version__
 
 package_data = {
-    'api_specification': ['api_specification/*.json']}
+    'meetup': ['api_specification/*.json']
+}
 
 
 readme_file = io.open('README.rst', encoding='utf-8')
